@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="C:\Users\EGAL-IT\Downloads\ECE_MEMOIRE\Figures\CRL.png" width="300">
+  <img src="Figures/CRL.png" width="300">
 </p>
+
 
 # RoCX — Causal Explanation for Graph Neural Networks
 
