@@ -3,9 +3,9 @@
 </p>
 
 
-# RoCX — Causal Explanation for Graph Neural Networks
+# RoCX — Integrating Causality and Counterfactual Reasoning for Robust and Explainable Graph Neural Networks.
 
-**RoCX** is a causal explanation framework for molecular graphs that leverages **causal graph construction, intervention-based reasoning, and structural analysis** to provide interpretable explanations of molecular behavior.
+**RoCX** is a framework that combines **causality, counterfactual reasoning, and structural analysis** to produce robust and interpretable explanations for graph neural network predictions on a wide range of graph types.
 
 This repository accompanies the **RoCX Master’s Thesis** and includes:
 - Core causal graph construction logic
@@ -20,7 +20,7 @@ This repository accompanies the **RoCX Master’s Thesis** and includes:
 This project is developed as part of a **Master’s thesis in Data Science & Artificial Intelligence (ECE Paris)**.
 
 **Thesis title**  
-> *RoCX: Causal Reasoning and Explainability for Graph Representations*
+> *RoCX: Integrating Causality and Counterfactual Reasoning for Robust and Explainable Graph Neural Networks*
 
 The work is inspired by recent advances in:
 - Causal inference (Pearl, 2018)
