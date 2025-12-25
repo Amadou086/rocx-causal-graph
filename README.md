@@ -31,8 +31,9 @@ The work is inspired by recent advances in:
 
 ## 🔍 Motivation
 Modern graph-based models (e.g., GNNs) often achieve **high predictive accuracy** but **lack causal interpretability**, relying primarily on correlation-based explanations.
+
 RoCX addresses this limitation by:
-Moving beyond correlation-based explanations
-Explicitly modeling **cause–effect relationships** between graph components
-Identifying **human-interpretable causal subgraphs** that drive model predictions
-Enabling **interactive inspection** and reasoning over causal graph structures.
+- Moving beyond correlation-based explanations
+- Explicitly modeling **cause–effect relationships** between graph components
+- Identifying **human-interpretable causal subgraphs** that drive model predictions
+- Enabling **interactive inspection** and reasoning over causal graph structures.
