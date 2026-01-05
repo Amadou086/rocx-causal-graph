@@ -99,7 +99,7 @@ streamlit run app.py
 - These experiments confirm that the method can distinguish true causal nodes from spurious correlations in a controlled graph setting.
 
 <p align="center">
-  <img src="./images/real.png" width="600">
+  <img src="Figures/benzene.png" width="600">
 </p>
 
 ### Molecular Case Studies
@@ -110,18 +110,18 @@ streamlit run app.py
 - Graph-level causality and counterfactual reasoning significantly improve interpretability compared to black-box methods.  
 
 <p align="center">
-  <img src="./images/real.png" width="600">
+  <img src="Figures/Synthetic_data.png" width="600">
 </p>
 
 📚 Related Work
-Behnam, A., & Wang, B. (2024, September). Graph neural network causal explanation via neural causal models. In European Conference on Computer Vision (pp. 410-427). Cham: Springer Nature Switzerland.
-Pearl, J. The Book of Why, 2018
+1. Behnam, A., & Wang, B. (2024, September). Graph neural network causal explanation via neural causal models. In European Conference on Computer Vision (pp. 410-427). Cham: Springer Nature Switzerland.
+2. Pearl, J. The Book of Why, 2018
 
-Agarwal et al., Evaluating Explainability for GNNs, 2023
+3. Agarwal et al., Evaluating Explainability for GNNs, 2023
 
-Geiger et al., Inducing Causal Structure for Neural Networks, ICML 2022
+4. Geiger et al., Inducing Causal Structure for Neural Networks, ICML 2022
 
-Luo et al., Parameterized Explainer for GNNs, NeurIPS 2020
+5. Luo et al., Parameterized Explainer for GNNs, NeurIPS 2020
 
 👤 Author
 
