@@ -74,3 +74,59 @@ real-world molecular graphs.
 <p align="center">
   <img src="Figures/Rocx_causal_graph.png" width="1000"> 
 </p>
+
+## 🖥️ Streamlit Application
+
+The interactive Streamlit app allows users to explore RoCX explanations for molecular graphs:
+
+- Upload molecular datasets (`.npz`)
+- Randomly sample molecules for inspection
+- Visualize causal and counterfactually robust subgraphs
+- Inspect node-level and bond-level contributions to predictions
+
+The app directly reflects the RoCX pipeline, showing how causal effects and robustness weighting generate interpretable molecular explanations.
+
+### Run locally
+```bash
+streamlit run app.py
+
+## 📊 Results & Observations
+
+### Synthetic BA Graph Experiments
+
+- RoCX is first trained and validated on **synthetic Barabási–Albert (BA) graphs** to verify that it can recover causal structure under controlled conditions.  
+- Node-level causal contributions and counterfactual robustness are accurately identified, demonstrating the reliability of the GNN-NCM model before applying it to real-world data.  
+- These experiments confirm that the method can distinguish true causal nodes from spurious correlations in a controlled graph setting.
+
+<p align="center">
+  <img src="./images/real.png" width="600">
+</p>
+
+### Molecular Case Studies
+
+- RoCX identifies **causal and counterfactually robust subgraphs**, highlighting chemically meaningful motifs in molecular graphs.  
+- Node- and bond-level explanations reflect **GNN-NCM learned causal contributions**, weighted by robustness, ensuring stable interpretations under perturbations.  
+- Explanations align with known molecular functional groups and structural motifs.  
+- Graph-level causality and counterfactual reasoning significantly improve interpretability compared to black-box methods.  
+
+<p align="center">
+  <img src="./images/real.png" width="600">
+</p>
+
+📚 Related Work
+Behnam, A., & Wang, B. (2024, September). Graph neural network causal explanation via neural causal models. In European Conference on Computer Vision (pp. 410-427). Cham: Springer Nature Switzerland.
+Pearl, J. The Book of Why, 2018
+
+Agarwal et al., Evaluating Explainability for GNNs, 2023
+
+Geiger et al., Inducing Causal Structure for Neural Networks, ICML 2022
+
+Luo et al., Parameterized Explainer for GNNs, NeurIPS 2020
+
+👤 Author
+
+Amadou Kindy Barry
+MSc Data Science & AI — ECE Paris
+🔗 LinkedIn: https://www.linkedin.com/in/amadou-kindy-barry
+💻 GitHub: https://github.com/amadou086
+
