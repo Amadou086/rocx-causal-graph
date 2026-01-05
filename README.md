@@ -86,11 +86,6 @@ The interactive Streamlit app allows users to explore RoCX explanations for mole
 
 The app directly reflects the RoCX pipeline, showing how causal effects and robustness weighting generate interpretable molecular explanations.
 
-### Run locally
-```bash
-streamlit run app.py
-
-
 
 ## 📊 Results & Observations
 
