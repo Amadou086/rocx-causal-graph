@@ -121,6 +121,6 @@ The app directly reflects the RoCX pipeline, showing how causal effects and robu
 
 Amadou Kindy Barry
 MSc Data Science & AI — ECE Paris
-🔗 LinkedIn: https://www.linkedin.com/in/amadou-kindy-barry
-💻 GitHub: https://github.com/amadou086
+-🔗 LinkedIn: https://www.linkedin.com/in/amadou-kindy-barry
+-💻 GitHub: https://github.com/amadou086
 
