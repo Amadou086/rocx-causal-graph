@@ -114,13 +114,13 @@ The app directly reflects the RoCX pipeline, showing how causal effects and robu
 - Behnam, A., & Wang, B. (2024, September). Graph neural network causal explanation via neural causal models. In European Conference on Computer Vision (pp. 410-427). Cham: Springer Nature Switzerland.
 - Pearl, J. The Book of Why, 2018.
 - Agarwal et al., Evaluating Explainability for GNNs, 2023.
-- Geiger et al., Inducing Causal Structure for Neural Networks, ICML 2022
-- Luo et al., Parameterized Explainer for GNNs, NeurIPS 2020
+- Geiger et al., Inducing Causal Structure for Neural Networks, ICML 2022.
+- Luo et al., Parameterized Explainer for GNNs, NeurIPS 2020.
 
 👤 Author
 
 Amadou Kindy Barry
-MSc Data Science & AI — ECE Paris
+MSc Data Management & AI — ECE Paris
 -🔗 LinkedIn: https://www.linkedin.com/in/amadou-kindy-barry
 -💻 GitHub: https://github.com/amadou086
 
