@@ -55,11 +55,11 @@ real-world molecular graphs.
 
 1. **Graph Representation & Prediction**
    - Represent input data as graphs \( G = (V, E) \)
-   - Apply a trained GNN \( f_\phi \) to obtain graph or node-level predictions
+   - Apply a trained GNN (f_φ) to obtain graph or node-level predictions
 
 2. **Causal–Counterfactual Representation Learning**
    - Construct a causal structure \( C(G) \) from graph topology
-   - Learn a GNN-based Neural Causal Model \( M(C, \theta) \) capturing interventional dependencies
+   - Learn a GNN-based Neural Causal Model (M(C, θ)) capturing interventional dependencies
    - Pretrain and validate causal reasoning using synthetic BA graphs
 
 3. **Causal Effect & Robustness Estimation**
