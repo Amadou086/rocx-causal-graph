@@ -23,6 +23,7 @@ This project is developed as part of a **Master’s thesis in Data Science & Art
 > *RoCX: Integrating Causality and Counterfactual Reasoning for Robust and Explainable Graph Neural Networks*
 
 The work is inspired by recent advances in:
+- Behnam, A., & Wang, B. (2024, September). Graph neural network causal explanation via neural causal models. In European Conference on Computer Vision (pp. 410-427). Cham: Springer Nature Switzerland.
 - Causal inference (Pearl, 2018)
 - Graph-based explainability
 - Molecular representation learning
